@@ -65,3 +65,8 @@
   border: 2px solid white;
   cursor: pointer;
 }
+
+.container-questions {
+  width: 100%;
+
+}
