@@ -66,7 +66,45 @@
   cursor: pointer;
 }
 
-.container-questions {
+.container_questions {
   width: 100%;
+  margin-top: 4vh !important;
+  display: flex;
+  justify-content: center;
+}
 
+.rectangle_questions {
+  width: 70%;
+  height: 50px;
+  background-color: #fff;
+  color: black;
+  border-radius: 15px;
+}
+
+.text_question {
+  width: 100%;
+  margin-top:20vh !important;
+  display: flex;
+  justify-content: center;
+}
+
+.container_answers {
+  display: flex;
+  justify-content: center;
+}
+
+.square_answers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 100px;
+  margin: 10px !important;
+  background-color: #fff;
+  color: black;
+  border-radius: 15px;
+}
+
+.mrg_top {
+  margin-top: 20px !important;
 }
