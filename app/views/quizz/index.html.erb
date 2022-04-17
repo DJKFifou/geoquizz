@@ -14,6 +14,7 @@
       <a class="square_answers" data-correct="<%= @answers[2][:correct] %>"><h2><%= @answers[2][:label] %></h2></a>
       <a class="square_answers" data-correct="<%= @answers[3][:correct] %>"><h2><%= @answers[3][:label] %></h2></a>
     </div>
+    <h2 class="container_next" onClick="window.location.reload()">Next</h2>
 </div>
 <script>
   var questions = document.getElementsByClassName('square_answers');

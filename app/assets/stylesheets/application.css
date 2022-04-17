@@ -89,9 +89,10 @@
 
 .text_question {
   width: 100%;
-  margin-top:20vh !important;
+  margin-top:5vh !important;
   display: flex;
   justify-content: center;
+  text-decoration: underline 2px;
 }
 
 .container_answers {
@@ -119,10 +120,29 @@
   cursor: pointer;
 }
 
+.container_next {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 4vh !important;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 700px) {
 
   .square_answers {
     width: 30%;
+  }
+
+  .text_question {
+    margin-top:10vh !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  .square_answers {
+    width: 40%;
   }
 }
 
