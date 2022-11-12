@@ -52,7 +52,7 @@
   margin-top: 28vh !important;
 }
 
-.btn {
+.btn-green {
   height: 60px;
   width: 160px;
   border-radius: 50px;
@@ -61,28 +61,61 @@
   justify-content: center;
   align-items: center;
   background-color: white;
+  color: green !important;
   line-height: 0;
   text-decoration: none;
   transition: all 0.2s ease-out;
 }
 
-.btn:hover {
+.btn-orange {
+  height: 60px;
+  width: 160px;
+  border-radius: 50px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: orange !important;
+  line-height: 0;
+  text-decoration: none;
+  transition: all 0.2s ease-out;
+}
+
+.btn-red {
+  height: 60px;
+  width: 160px;
+  border-radius: 50px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: red !important;
+  line-height: 0;
+  text-decoration: none;
+  transition: all 0.2s ease-out;
+}
+
+.btn-green:hover {
   background-color: black;
   border: 2px solid white;
   cursor: pointer;
   transition: all 0.2s ease-out;
 }
 
-.green {
-  color: green !important;
+.btn-green:hover {
+  background-color: black;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
 }
 
-.orange {
-  color: orange !important;
-}
-
-.red {
-  color: red !important;
+.btn-green:hover {
+  background-color: black;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
 }
 
 .container_questions {
