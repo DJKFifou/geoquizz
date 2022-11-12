@@ -98,21 +98,24 @@
 }
 
 .btn-green:hover {
-  background-color: black;
+  background-color: green;
+  color: white;
   border: 2px solid white;
   cursor: pointer;
   transition: all 0.2s ease-out;
 }
 
 .btn-green:hover {
-  background-color: black;
+  background-color: orange;
+  color: white;
   border: 2px solid white;
   cursor: pointer;
   transition: all 0.2s ease-out;
 }
 
 .btn-green:hover {
-  background-color: black;
+  background-color: red;
+  color: white;
   border: 2px solid white;
   cursor: pointer;
   transition: all 0.2s ease-out;
