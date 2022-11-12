@@ -73,16 +73,16 @@
   transition: all 0.2s ease-out;
 }
 
-.yellow {
-  color: yellow;
+.green {
+  color: green !important;
 }
 
 .orange {
-  color: orange;
+  color: orange !important;
 }
 
 .red {
-  color: red;
+  color: red !important;
 }
 
 .container_questions {
