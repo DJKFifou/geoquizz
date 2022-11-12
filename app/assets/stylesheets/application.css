@@ -42,7 +42,8 @@
 .container_btn {
   display: flex;
   justify-content: center;
-  margin: 0vh 6vh;
+  margin-left: 3vh;
+  margin-right: 3vh;
 }
 
 .container-btns {
