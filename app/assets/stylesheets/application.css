@@ -61,7 +61,6 @@
   justify-content: center;
   align-items: center;
   background-color: white;
-  color: black !important;
   line-height: 0;
   text-decoration: none;
   transition: all 0.2s ease-out;
@@ -69,10 +68,21 @@
 
 .btn:hover {
   background-color: black;
-  color: white !important;
   border: 2px solid white;
   cursor: pointer;
   transition: all 0.2s ease-out;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.orange {
+  color: orange;
+}
+
+.red {
+  color: red;
 }
 
 .container_questions {
