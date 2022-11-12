@@ -99,7 +99,7 @@
 
 .btn-green:hover {
   background-color: green;
-  color: white;
+  color: white !important;
   border: 2px solid white;
   cursor: pointer;
   transition: all 0.2s ease-out;
@@ -107,7 +107,7 @@
 
 .btn-orange:hover {
   background-color: orange;
-  color: white;
+  color: white !important;
   border: 2px solid white;
   cursor: pointer;
   transition: all 0.2s ease-out;
@@ -115,7 +115,7 @@
 
 .btn-red:hover {
   background-color: red;
-  color: white;
+  color: white !important;
   border: 2px solid white;
   cursor: pointer;
   transition: all 0.2s ease-out;
