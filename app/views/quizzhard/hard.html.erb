@@ -1,0 +1,32 @@
+<div class="background">
+    <div class="title">
+      <h1>GEOQUIZZ</h1>
+    </div>
+    <div class="text_question"><h1>Question</h1></div>
+    <div class="container_questions">
+      <div class="rectangle_questions"><h2><%= @question.text %></h2></div>
+    </div>
+    <div class="container_answers mrg_top">
+      <a class="square_answers" data-correct="<%= @answers[0][:correct] %>"><h2><%= @answers[0][:label] %></h2></a>
+      <a class="square_answers" data-correct="<%= @answers[1][:correct] %>"><h2><%= @answers[1][:label] %></h2></a>
+    </div>
+    <div class="container_answers">
+      <a class="square_answers" data-correct="<%= @answers[2][:correct] %>"><h2><%= @answers[2][:label] %></h2></a>
+      <a class="square_answers" data-correct="<%= @answers[3][:correct] %>"><h2><%= @answers[3][:label] %></h2></a>
+    </div>
+    <h2 class="container_next" onClick="window.location.reload()">Next</h2>
+</div>
+<script>
+  var questions = document.getElementsByClassName('square_answers');
+  for (var i=0; i < questions.length; i++) {
+    questions[i].onclick = function(){
+      var answer = this;
+      var correct = answer.dataset.correct === 'true';
+      if (correct) {
+        answer.classList.add('correct');
+      } else {
+        answer.classList.add('incorrect');
+      }
+    }
+};
+</script>
