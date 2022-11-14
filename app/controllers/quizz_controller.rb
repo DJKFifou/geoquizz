@@ -8,22 +8,22 @@ class QuizzController < ApplicationController
     @answers << { label: @question.wrong_answer_3, correct: false }
     @answers.shuffle!
   end
-  def indexmedium
-    @question = Question.all.sample
-    @answers = []
-    @answers << { label: @question.correct_answer, correct: true }
-    @answers << { label: @question.wrong_answer_1, correct: false }
-    @answers << { label: @question.wrong_answer_2, correct: false }
-    @answers << { label: @question.wrong_answer_3, correct: false }
-    @answers.shuffle!
-  end
-  def indexhard
-    @question = Question.all.sample
-    @answers = []
-    @answers << { label: @question.correct_answer, correct: true }
-    @answers << { label: @question.wrong_answer_1, correct: false }
-    @answers << { label: @question.wrong_answer_2, correct: false }
-    @answers << { label: @question.wrong_answer_3, correct: false }
-    @answers.shuffle!
-  end
+  # def indexmedium
+  #   @question = Question.all.sample
+  #   @answers = []
+  #   @answers << { label: @question.correct_answer, correct: true }
+  #   @answers << { label: @question.wrong_answer_1, correct: false }
+  #   @answers << { label: @question.wrong_answer_2, correct: false }
+  #   @answers << { label: @question.wrong_answer_3, correct: false }
+  #   @answers.shuffle!
+  # end
+  # def indexhard
+  #   @question = Question.all.sample
+  #   @answers = []
+  #   @answers << { label: @question.correct_answer, correct: true }
+  #   @answers << { label: @question.wrong_answer_1, correct: false }
+  #   @answers << { label: @question.wrong_answer_2, correct: false }
+  #   @answers << { label: @question.wrong_answer_3, correct: false }
+  #   @answers.shuffle!
+  # end
 end
