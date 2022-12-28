@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   root "home#home"
 
   get '/quizz' => 'quizz#index'
-  get '/quizzmedium' => 'quizzmedium#medium'
-  get '/quizzhard' => 'quizzhard#hard'
+  get '/quizzmedium' => 'quizzmedium#indexx'
+  get '/quizzhard' => 'quizzhard#index'
 end
