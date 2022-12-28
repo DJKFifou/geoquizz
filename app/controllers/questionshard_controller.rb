@@ -59,12 +59,12 @@ class QuestionshardController < ApplicationController
 
   private
     # Use callbacks to share common setup or constraints between actions.
-    def set_question
+    def set_questionhard
       @questionhard = Questionhard.find(params[:id])
     end
 
     # Only allow a list of trusted parameters through.
-    def question_params
-      params.require(:question).permit(:text, :correct_answer, :wrong_answer_1, :wrong_answer_2, :wrong_answer_3)
+    def questionhard_params
+      params.require(:questionhard).permit(:text, :correct_answerhard, :wrong_answerhard_1, :wrong_answerhard_2, :wrong_answerhard_3)
     end
 end
