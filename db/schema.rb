@@ -25,4 +25,14 @@ ActiveRecord::Schema.define(version: 2022_03_31_133511) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "questionshard", force: :cascade do |t|
+    t.text "text"
+    t.string "correct_answerhard"
+    t.string "wrong_answerhard_1"
+    t.string "wrong_answerhard_2"
+    t.string "wrong_answerhard_3"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
 end
