@@ -1,10 +1,10 @@
-<%= form_with(model: questionhard) do |form| %>
-  <% if questionhard.errors.any? %>
+<%= form_with(model: question) do |form| %>
+  <% if question.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(question.errors.count, "error") %> prohibited this question from being saved:</h2>
 
       <ul>
-        <% questionhard.errors.each do |error| %>
+        <% question.errors.each do |error| %>
           <li><%= error.full_message %></li>
         <% end %>
       </ul>
@@ -17,23 +17,23 @@
   </div>
 
   <div class="field">
-    <%= form.label :correct_answerhard %>
-    <%= form.text_field :correct_answerhard %>
+    <%= form.label :correct_answer %>
+    <%= form.text_field :correct_answer %>
   </div>
 
   <div class="field">
-    <%= form.label :wrong_answerhard_1 %>
-    <%= form.text_field :wrong_answerhard_1 %>
+    <%= form.label :wrong_answer_1 %>
+    <%= form.text_field :wrong_answer_1 %>
   </div>
 
   <div class="field">
-    <%= form.label :wrong_answerhard_2 %>
-    <%= form.text_field :wrong_answerhard_2 %>
+    <%= form.label :wrong_answer_2 %>
+    <%= form.text_field :wrong_answer_2 %>
   </div>
 
   <div class="field">
-    <%= form.label :wrong_answerhard_3 %>
-    <%= form.text_field :wrong_answerhard_3 %>
+    <%= form.label :wrong_answer_3 %>
+    <%= form.text_field :wrong_answer_3 %>
   </div>
 
   <div class="actions">
