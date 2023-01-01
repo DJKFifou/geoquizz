@@ -1,5 +1,5 @@
 class QuizzhardController < ApplicationController
-  def hard
+  def index
     @questionhard = Questionhard.all.sample
     @answers = []
     @answers << { label: @questionhard.correct_answer, correct: true }
