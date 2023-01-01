@@ -4,7 +4,7 @@
     </div>
     <div class="text_question"><h1>Question</h1></div>
     <div class="container_questions">
-      <div class="rectangle_questions"><h2><%= @question.text %></h2></div>
+      <div class="rectangle_questions"><h2><%= @questionhard.text %></h2></div>
     </div>
     <div class="container_answers mrg_top">
       <a class="square_answers" data-correct="<%= @answers[0][:correct] %>"><h2><%= @answers[0][:label] %></h2></a>
@@ -17,9 +17,9 @@
     <h2 class="container_next" onClick="window.location.reload()">Next</h2>
 </div>
 <script>
-  var questions = document.getElementsByClassName('square_answers');
-  for (var i=0; i < questions.length; i++) {
-    questions[i].onclick = function(){
+  var questionshard = document.getElementsByClassName('square_answers');
+  for (var i=0; i < questionshard.length; i++) {
+    questionshard[i].onclick = function(){
       var answer = this;
       var correct = answer.dataset.correct === 'true';
       if (correct) {
