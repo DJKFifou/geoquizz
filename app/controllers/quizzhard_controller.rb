@@ -1,4 +1,4 @@
-class QuizzController < ApplicationController
+class QuizzhardController < ApplicationController
   def index
     @question = Question.all.sample
     @answers = []
