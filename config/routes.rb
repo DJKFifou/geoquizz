@@ -5,4 +5,5 @@ Rails.application.routes.draw do
 
   get '/quizz' => 'quizz#index'
   get '/quizzhard' => 'quizzhard#hard'
+  get '/quizzmedium' => 'quizzmedium#medium'
 end
