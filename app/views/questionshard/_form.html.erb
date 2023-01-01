@@ -4,7 +4,7 @@
       <h2><%= pluralize(questionhard.errors.count, "error") %> prohibited this question from being saved:</h2>
 
       <ul>
-        <% question.errors.each do |error| %>
+        <% questionhard.errors.each do |error| %>
           <li><%= error.full_message %></li>
         <% end %>
       </ul>
