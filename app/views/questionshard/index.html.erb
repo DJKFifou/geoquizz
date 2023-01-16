@@ -15,16 +15,16 @@
   </thead>
 
   <tbody>
-    <% @questions.each do |question| %>
+    <% @questionshard.each do |questionhard| %>
       <tr>
-        <td><%= question.text %></td>
-        <td><%= question.correct_answer %></td>
-        <td><%= question.wrong_answer_1 %></td>
-        <td><%= question.wrong_answer_2 %></td>
-        <td><%= question.wrong_answer_3 %></td>
-        <td><%= link_to 'Show', question %></td>
-        <td><%= link_to 'Edit', edit_question_path(question) %></td>
-        <td><%= link_to 'Destroy', question, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= questionhard.text %></td>
+        <td><%= questionhard.correct_answer %></td>
+        <td><%= questionhard.wrong_answer_1 %></td>
+        <td><%= questionhard.wrong_answer_2 %></td>
+        <td><%= questionhard.wrong_answer_3 %></td>
+        <td><%= link_to 'Show', questionhard %></td>
+        <td><%= link_to 'Edit', edit_questionhard_path(questionhard) %></td>
+        <td><%= link_to 'Destroy', questionhard, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -32,4 +32,4 @@
 
 <br>
 
-<%= link_to 'New Question', new_question_path %>
+<%= link_to 'New Question', new_questionhard_path %>
