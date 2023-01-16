@@ -1,2 +1,2 @@
-class Question < ApplicationRecord
+class Questionhard < ApplicationRecord
 end
