@@ -35,14 +35,8 @@
 
 .travaux {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
   margin-top: 28vh !important;
-}
-
-.mrg {
-  margin-top: 1rem;
 }
 
 .container_btn {
@@ -56,6 +50,19 @@
   display: flex;
   justify-content: center;
   margin-top: 28vh !important;
+}
+
+@media screen and (max-width: 600px) {
+
+  .container-btns {
+    flex-direction: column;
+  }
+
+  .container_btn {
+    margin-top: 3vh !important;
+    margin-left: 3vh !important;
+  }
+  
 }
 
 .btn-green {
