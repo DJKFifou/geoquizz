@@ -143,6 +143,7 @@
 
 .rectangle_questions {
   width: 70%;
+  height: 100px;
   background-color: #fff;
   color: black;
   border-radius: 15px;
