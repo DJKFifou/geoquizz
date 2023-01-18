@@ -21,6 +21,7 @@
 
 .background {
   width: 100%;
+  height: 100vh;
   background: linear-gradient(150deg, #00ff88, #00ffe6);
   margin-bottom: 100px;
 }
@@ -142,7 +143,6 @@
 
 .rectangle_questions {
   width: 70%;
-  height: 50px;
   background-color: #fff;
   color: black;
   border-radius: 15px;
@@ -150,6 +150,10 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.padding {
+  padding: 10px;
 }
 
 .text_question {

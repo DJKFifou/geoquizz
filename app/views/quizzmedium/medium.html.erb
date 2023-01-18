@@ -4,7 +4,7 @@
     </div>
     <div class="text_question"><h1>Question</h1></div>
     <div class="container_questions">
-      <div class="rectangle_questions"><h2><%= @question.text %></h2></div>
+      <div class="rectangle_questions"><h2 class="padding"><%= @question.text %></h2></div>
     </div>
     <div class="container_answers mrg_top">
       <a class="square_answers" data-correct="<%= @answers[0][:correct] %>"><h2><%= @answers[0][:label] %></h2></a>
